@@ -21,21 +21,6 @@ void leitura(){
         leitura[i].q = 0;
     }
 
-    /*
-    printf("Ancora A = %d e Ancora B = %d \n", A, B);
-    for ( i = 0 ; i <= n ; i++){
-        for (j = 0 ; j <= n ; j++){
-            if (leitura[i].Ia > leitura[j].Ia && leitura[i].Ib > leitura[j].Ib){
-                leitura[i].q ++;
-                printf("Ponto %d é interno a %d. IA = %f / IB = %f.\n", j, i+1, leitura[i].Ia, leitura[i].Ib);
-            }
-        }
-    }
-    for ( i = 0 ; i < n ; i++){
-        printf("O Ponto %d tem %d triangulo(s) internos.\n",i+1 , leitura[i].q);
-    }
-    */
-
     printf("\n");
     fclose(read);
     return 0;
